@@ -20,15 +20,15 @@ class Jutsu extends React.Component {
     render() {
         return(
             <div>
-                <h1>{this.props.val.sealOne}</h1>
-                <h1>{this.props.val.sealTwo}</h1>
-                <h1>{this.props.val.sealThree}</h1>
-                <h1>{this.props.val.sealFour}</h1>
-                <h1>{this.props.val.sealFive}</h1>
-                <h1>{this.props.val.sealSix}</h1>
-                <h1>{this.props.val.jutsuName}</h1> 
-                <button>Edit</button> 
-                <button onClick={this.deleteJutsu}>Delete</button>
+                <h1 class="outputOfJutsu">{this.props.val.sealOne}</h1>
+                <h1 class="outputOfJutsu">{this.props.val.sealTwo}</h1>
+                <h1 class="outputOfJutsu">{this.props.val.sealThree}</h1>
+                <h1 class="outputOfJutsu">{this.props.val.sealFour}</h1>
+                <h1 class="outputOfJutsu">{this.props.val.sealFive}</h1>
+                <h1 class="outputOfJutsu">{this.props.val.sealSix}</h1>
+                <h1 class="outputOfJutsu">{this.props.val.jutsuName}</h1> 
+                <button class="editButton">Edit</button> 
+                <button class="deleteButton" onClick={this.deleteJutsu}>Delete</button>
             </div>
         )
     }

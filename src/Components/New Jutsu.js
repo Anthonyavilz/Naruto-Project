@@ -3,6 +3,7 @@ import axios from "axios";
 import Justu from "./Jutsu";
 
 
+
 class NewJutsu extends React.Component {
     constructor() {
         super();
@@ -38,8 +39,9 @@ class NewJutsu extends React.Component {
 
         return(
             <div>
-                <p>List of Created Justu</p>
+                <p class="listOfJutsu">List of Created Justu</p>
                 {inputtedJutsu}
+
             </div>
         )
     }

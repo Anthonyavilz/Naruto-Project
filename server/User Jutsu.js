@@ -17,7 +17,6 @@ function createJutsu(req, res) {
 }
 
 function getJutsu(req, res) {
-    console.log('uj19:', userJutsu)
     res.status(200).json(userJutsu);
 }
 

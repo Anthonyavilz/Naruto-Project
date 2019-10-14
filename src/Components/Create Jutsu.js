@@ -1,6 +1,7 @@
 import React from "react";
 import Axios from "axios";
 
+
 class CreateJutsu extends React.Component {
     constructor() {
         super();
@@ -66,14 +67,14 @@ class CreateJutsu extends React.Component {
     render() {
         return(
             <form>
-                <input placeholder="Hand Sign 1" onChange={this.handleSealOne}></input>
-                <input placeholder="Hand Sign 2" onChange={this.handleSealTwo}></input>
-                <input placeholder="Hand Sign 3" onChange={this.handleSealThree}></input>
-                <input placeholder="Hand Sign 4" onChange={this.handleSealFour}></input>
-                <input placeholder="Hand Sign 5" onChange={this.handleSealFive}></input>
-                <input placeholder="Hand Sign 6" onChange={this.handleSealSix}></input>
-                <input placeholder="Jutsu Name" onChange={this.handleName}></input>
-                <button onClick={this.handleClick}>Add</button>
+                <input placeholder="Hand Sign 1" class="handSignFields" onChange={this.handleSealOne}></input>
+                <input placeholder="Hand Sign 2" class="handSignFields" onChange={this.handleSealTwo}></input>
+                <input placeholder="Hand Sign 3" class="handSignFields" onChange={this.handleSealThree}></input>
+                <input placeholder="Hand Sign 4" class="handSignFields" onChange={this.handleSealFour}></input>
+                <input placeholder="Hand Sign 5" class="handSignFields" onChange={this.handleSealFive}></input>
+                <input placeholder="Hand Sign 6" class="handSignFields" onChange={this.handleSealSix}></input>
+                <input placeholder="Jutsu Name" class="handSignFields" onChange={this.handleName}></input>
+                <button class="addButtonCJ" onClick={this.handleClick}>Add</button>
             </form>
         )
     }

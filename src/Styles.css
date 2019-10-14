@@ -1,0 +1,136 @@
+html {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.first-row {
+    display: flex;
+    align-items: center;
+}
+
+.second-row {
+    display: flex;
+    align-items: center;
+}
+
+.bird {
+    opacity: 1;
+    width: 16.67%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.boar {
+    opacity: 1;
+    width: 16.67%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.dog {
+    opacity: 1;
+    width: 16.67%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.dragon {
+    opacity: 1;
+    width: 16.67%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.hare {
+    opacity: 1;
+    width: 16.67%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.horse {
+    opacity: 1;
+    width: 16.67%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.monkey {
+    opacity: 1;
+    width: 16.67%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.ox {
+    opacity: 1;
+    width: 16.67%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.ram {
+    opacity: 1;
+    width: 16.67%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.rat {
+    opacity: 1;
+    width: 16.67%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.serpernt {
+    opacity: 1;
+    width: 16.67%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.tiger {
+    opacity: 1;
+    width: 16.67%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+
+.middle-bird {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.first-bird:hover .bird {
+    opacity: 0.3;
+}
+
+.first-bird:hover .middle-bird {
+    opacity: 1;
+}
+
+.text-bird {
+    background-color: rgb(95, 95, 95);
+    color: white;
+    font-size: 40px;
+    padding: 16px 32px;
+}

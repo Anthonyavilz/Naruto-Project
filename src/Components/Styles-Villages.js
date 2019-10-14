@@ -1,4 +1,5 @@
 import React from "react";
+import '../Styles.css'
 
 class StylesVillages extends React.Component {
     constructor() {
@@ -10,7 +11,7 @@ class StylesVillages extends React.Component {
     render() {
         return(
             <div>
-                <p>Info about the villages displayed here</p>
+                <p class="villageInfo">Info about the villages displayed here</p>
             </div>
         )
     }

@@ -10,7 +10,7 @@ class EnterButton extends React.Component {
     render() {
         return(
             <div>
-                <button>Enter</button>
+                <button class="mainEnterButton">Enter</button>
             </div>
         )
     }
