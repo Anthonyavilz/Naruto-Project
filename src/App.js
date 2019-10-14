@@ -1,26 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import MainPage from "./Components/Main Page";
+import StylesVillages from "./Components/Styles-Villages";
+import CreateJutsu from "./Components/Create Jutsu";
+import NewJutsu from "./Components/New Jutsu";
+import EnterButton from "./Components/EnterButton";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+    
+    }
+
+  }
+
+  
+
+  render() {
+    return(
+      <div>
+          <h1>World of Naruto: Jutsu Maker</h1>
+          <EnterButton />
+          <MainPage />
+          <StylesVillages />
+          <CreateJutsu />
+          <NewJutsu />
+      </div>
+    )
+  }
 }
 
 export default App;
